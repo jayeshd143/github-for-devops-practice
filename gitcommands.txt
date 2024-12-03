@@ -1,0 +1,69 @@
+
+git & github----
+~~~~~~~~~~~~~~~
+
+
+SCM source code management- GitHub, GitLab, bitbucket---(uses git platform only)____________________
+
+
+3 stages in git---
+1. untracked
+2. staged
+3. tracked.
+
+
+
+what is fork?
+
+copying the entire code from source code at your GitHub UI
+
+..
+initialize empty git repository in folder or pwd
+--git init
+
+git status
+to know the status of new or modified files
+
+git add  filename                    ---- addd untracked file to staging area
+-- to add untracked changes
+
+git add .                          ------- adds all thefiles to staging area
+
+git rm --cached filename             -----sends back file from stagin to untracked zone
+
+
+git commit -m "commit message"
+to commit to push the file version eith message
+
+
+________________________________________________
+
+create gui repository GitHub with same name
+
+____________-give PAT personal access token to local to acces GitHub...from your dp>setting>developer settings>PAT
+
+PAT valid for 30 days created on 3-12 - (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)
+
+then you change URL with-----
+
+git remote set-url origin https://PAT token @username-repo url
+
+then from local git folder,
+
+git remote add origin "url of git created repo which you want to add"
+
+OR
+
+git remote add "url of your account" "repository name you want to give"-- to push the local to remote as new create
+
+to know if therepository is added-------
+
+git remote -v
+
+git push origin master     ---------- will push the changed to GitHub repo
+
+__________________copy the git repo acress the accounts..
+fork
+git clone repourl
+
+
