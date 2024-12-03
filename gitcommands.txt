@@ -40,12 +40,12 @@ ________________________________________________
 
 create gui repository GitHub with same name
 
-____________-give PAT personal access token to local to acces GitHub...from your dp>setting>developer settings>PAT
+____________-give PAts to local to acces GitHub...from your dp>setting>developer settings>PAT
 
 PAT 
 then you change URL with-----
 
-git remote set-url origin https://PAT token @username-repo url
+git remote set-url origin https://PAtsoken @username-repo url
 
 then from local git folder,
 
